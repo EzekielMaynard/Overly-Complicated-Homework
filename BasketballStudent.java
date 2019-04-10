@@ -18,7 +18,7 @@ public class BasketballStudent extends StudentAthlete implements Basketball {
 	public static int GamesStarted;
 	
 	public BasketballStudent(String fName, String lName, int eid){
-		
+		super(fName, lName, eid);
 	}
 	public void setFieldGoalsAttempted(int fieldGoalsAttempted){
 		fieldGoalsAttempted=this.FieldGoalsAttempted;
