@@ -21,7 +21,7 @@ public class SoccerAthlete extends StudentAthlete implements Soccer {
 		super(fName, lName, eid);
 	}
 	public void setFieldGoalsAttempted(int fieldGoalsAttempted){
-		fieldGoalsAttempted=this.FieldGoalsAttempted;
+		fieldGoalsAttempted=this.GoalsAssist;
 	}public void setFieldGoalsMade(int fieldGoalsMade){
 		fieldGoalsMade= this.FieldGoalsMade;
 	}public void setGamesPlayed(int gamesPlayed){
@@ -30,7 +30,7 @@ public class SoccerAthlete extends StudentAthlete implements Soccer {
 		gamesStarted = this.GamesStarted;
 	}
 	public int getFieldGoalsAttempted(){
-		return this.FieldGoalsAttempted;
+		return this.GoalsAssist;
 	}public int getFieldGoalsMade(){
 		return this.FieldGoalsMade;
 	}public int getGamesPlayed(){
